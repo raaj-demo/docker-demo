@@ -1,6 +1,6 @@
 # Cheet Codes
 
-docker build -t friendlyhello .  # Create image using this directory's Dockerfile
+`docker build -t friendlyhello .  # Create image using this directory's Dockerfile
 
 docker run -p 4000:80 friendlyhello  # Run "friendlyname" mapping port 4000 to 80
 
@@ -31,3 +31,4 @@ docker tag <image> username/repository:tag  # Tag <image> for upload to registry
 docker push username/repository:tag            # Upload tagged image to registry
 
 docker run username/repository:tag                   # Run image from a registry
+`
